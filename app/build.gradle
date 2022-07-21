@@ -48,6 +48,8 @@ dependencies {
 
     //Advanced Logger for Android
     implementation 'com.jakewharton.timber:timber:5.0.1'
+    //Splitties for Boiler-plate code cleaning
+    implementation "com.louiscad.splitties:splitties-fun-pack-android-material-components:3.0.0"
     //Kotlin Coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
