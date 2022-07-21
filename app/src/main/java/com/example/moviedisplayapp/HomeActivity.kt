@@ -1,5 +1,6 @@
 package com.example.moviedisplayapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
@@ -7,6 +8,7 @@ import com.example.moviedisplayapp.adapter.MoviesAdapter
 import com.example.moviedisplayapp.api.ApiService
 import com.example.moviedisplayapp.databinding.ActivityHomeBinding
 import kotlinx.coroutines.launch
+import splitties.activities.start
 import splitties.snackbar.snack
 import java.net.ConnectException
 import java.net.SocketTimeoutException
@@ -35,6 +37,9 @@ class HomeActivity : AppCompatActivity() {
     private fun setupRecyclerView() {
         adapter = MoviesAdapter { result ->
             //TODO Navigate to next screen when image is clicked
+            start<MovieDetailActivity>(){
+                putExtra("movie",result)
+            }
         }
         binding.moviesList.adapter = adapter
     }

@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/MK/Documents/Rishabh Projects/test projects/Movie-Display-App/app/src/main/res/layout/activity_home.xml" value="0.14719202898550723" />
-        <entry key="..\:/Users/MK/Documents/Rishabh Projects/test projects/Movie-Display-App/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/MK/Documents/Rishabh Projects/test projects/Movie-Display-App/app/src/main/res/layout/item_movies.xml" value="0.184375" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/drawable/ic_calander.xml" value="0.2095" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/drawable/ic_eye.xml" value="0.2095" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/drawable/ic_star.xml" value="0.2095" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/layout/activity_main.xml" value="0.19746376811594202" />
+        <entry key="..\:/PrathameshInvizio/Pratham Android Applications/Movie Display App/app/src/main/res/layout/activity_movie_detail.xml" value="0.2" />
       </map>
     </option>
   </component>
