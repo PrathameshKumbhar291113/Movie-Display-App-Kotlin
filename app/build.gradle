@@ -6,7 +6,10 @@ plugins {
 
 android {
     compileSdk 32
-
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
     defaultConfig {
         applicationId "com.example.moviedisplayapp"
         minSdk 23
