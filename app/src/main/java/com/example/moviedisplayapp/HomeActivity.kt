@@ -1,11 +1,13 @@
 package com.example.moviedisplayapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.example.moviedisplayapp.adapter.MoviesAdapter
 import com.example.moviedisplayapp.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
 
+    private lateinit var adapter: MoviesAdapter
     private lateinit var binding: ActivityHomeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,10 +17,13 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //Setup the RecyclerView first when screen loads
+        setupRecyclerView()
     }
 
     private fun setupRecyclerView() {
-        //TODO create an adapter for recyclerview
-        binding.moviesList.adapter
+        adapter = MoviesAdapter { result ->
+            //TODO Navigate to next screen when image is clicked
+        }
+        binding.moviesList.adapter = adapter
     }
 }
